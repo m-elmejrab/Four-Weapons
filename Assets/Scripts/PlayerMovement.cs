@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void Update()
     {
-        jump = Input.GetButtonDown("Jump");
+        jump = Input.GetKey(KeyCode.Space);
         horizontalMovement = Input.GetAxisRaw("Horizontal");
 
     }
